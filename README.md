@@ -47,7 +47,7 @@ A **bonding curve** is a mathematical function used to determine the price of a 
 
 In the SeiPAD contract, the bonding curve is implemented using an exponential formula. As users buy tokens during the **funding phase**, the price increases according to the bonding curve formula, which is:
 
-Price = A * exp(B * x) / (exp(B * x) - 1)
+`Price = A * exp(B * x) / (exp(B * x) - 1)`
 
 
 Where:
