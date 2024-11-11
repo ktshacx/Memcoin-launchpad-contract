@@ -1,0 +1,194 @@
+{
+	"deploy": {
+		"VM:-": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"main:1": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"ropsten:3": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"rinkeby:4": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"kovan:42": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"goerli:5": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		},
+		"Custom": {
+			"linkReferences": {},
+			"autoDeployLib": true
+		}
+	},
+	"data": {
+		"bytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"linkReferences": {},
+			"object": "60566050600b82828239805160001a6073146043577f4e487b7100000000000000000000000000000000000000000000000000000000600052600060045260246000fd5b30600052607381538281f3fe73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212200e3468db0e3fc82c3ef390ef633a604f1c21b160420f5c54d3b196dcd935fe3364736f6c634300080d0033",
+			"opcodes": "PUSH1 0x56 PUSH1 0x50 PUSH1 0xB DUP3 DUP3 DUP3 CODECOPY DUP1 MLOAD PUSH1 0x0 BYTE PUSH1 0x73 EQ PUSH1 0x43 JUMPI PUSH32 0x4E487B7100000000000000000000000000000000000000000000000000000000 PUSH1 0x0 MSTORE PUSH1 0x0 PUSH1 0x4 MSTORE PUSH1 0x24 PUSH1 0x0 REVERT JUMPDEST ADDRESS PUSH1 0x0 MSTORE PUSH1 0x73 DUP2 MSTORE8 DUP3 DUP2 RETURN INVALID PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE CALLVALUE PUSH9 0xDB0E3FC82C3EF390EF PUSH4 0x3A604F1C 0x21 0xB1 PUSH1 0x42 0xF 0x5C SLOAD 0xD3 0xB1 SWAP7 0xDC 0xD9 CALLDATALOAD INVALID CALLER PUSH5 0x736F6C6343 STOP ADDMOD 0xD STOP CALLER ",
+			"sourceMap": "399:51564:0:-:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;"
+		},
+		"deployedBytecode": {
+			"functionDebugData": {},
+			"generatedSources": [],
+			"immutableReferences": {},
+			"linkReferences": {},
+			"object": "73000000000000000000000000000000000000000030146080604052600080fdfea26469706673582212200e3468db0e3fc82c3ef390ef633a604f1c21b160420f5c54d3b196dcd935fe3364736f6c634300080d0033",
+			"opcodes": "PUSH20 0x0 ADDRESS EQ PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x0 DUP1 REVERT INVALID LOG2 PUSH5 0x6970667358 0x22 SLT KECCAK256 0xE CALLVALUE PUSH9 0xDB0E3FC82C3EF390EF PUSH4 0x3A604F1C 0x21 0xB1 PUSH1 0x42 0xF 0x5C SLOAD 0xD3 0xB1 SWAP7 0xDC 0xD9 CALLDATALOAD INVALID CALLER PUSH5 0x736F6C6343 STOP ADDMOD 0xD STOP CALLER ",
+			"sourceMap": "399:51564:0:-:0;;;;;;;;"
+		},
+		"gasEstimates": {
+			"creation": {
+				"codeDepositCost": "17200",
+				"executionCost": "97",
+				"totalCost": "17297"
+			},
+			"internal": {
+				"abs(int256)": "infinite",
+				"avg(int256,int256)": "infinite",
+				"avg(uint256,uint256)": "infinite",
+				"cbrt(uint256)": "infinite",
+				"cbrtWad(uint256)": "infinite",
+				"clamp(int256,int256,int256)": "infinite",
+				"clamp(uint256,uint256,uint256)": "infinite",
+				"dist(int256,int256)": "infinite",
+				"dist(uint256,uint256)": "infinite",
+				"divUp(uint256,uint256)": "infinite",
+				"divWad(uint256,uint256)": "infinite",
+				"divWadUp(uint256,uint256)": "infinite",
+				"expWad(int256)": "infinite",
+				"factorial(uint256)": "infinite",
+				"fullMulDiv(uint256,uint256,uint256)": "infinite",
+				"fullMulDivUnchecked(uint256,uint256,uint256)": "infinite",
+				"fullMulDivUp(uint256,uint256,uint256)": "infinite",
+				"gcd(uint256,uint256)": "infinite",
+				"isEven(uint256)": "infinite",
+				"lambertW0Wad(int256)": "infinite",
+				"lerp(int256,int256,int256,int256,int256)": "infinite",
+				"lerp(uint256,uint256,uint256,uint256,uint256)": "infinite",
+				"lnWad(int256)": "infinite",
+				"log10(uint256)": "infinite",
+				"log10Up(uint256)": "infinite",
+				"log2(uint256)": "infinite",
+				"log256(uint256)": "infinite",
+				"log256Up(uint256)": "infinite",
+				"log2Up(uint256)": "infinite",
+				"max(int256,int256)": "infinite",
+				"max(uint256,uint256)": "infinite",
+				"min(int256,int256)": "infinite",
+				"min(uint256,uint256)": "infinite",
+				"mulDiv(uint256,uint256,uint256)": "infinite",
+				"mulDivUp(uint256,uint256,uint256)": "infinite",
+				"mulWad(uint256,uint256)": "infinite",
+				"mulWadUp(uint256,uint256)": "infinite",
+				"packSci(uint256)": "infinite",
+				"powWad(int256,int256)": "infinite",
+				"rawAdd(int256,int256)": "infinite",
+				"rawAdd(uint256,uint256)": "infinite",
+				"rawAddMod(uint256,uint256,uint256)": "infinite",
+				"rawDiv(uint256,uint256)": "infinite",
+				"rawDivWad(uint256,uint256)": "infinite",
+				"rawDivWadUp(uint256,uint256)": "infinite",
+				"rawMod(uint256,uint256)": "infinite",
+				"rawMul(int256,int256)": "infinite",
+				"rawMul(uint256,uint256)": "infinite",
+				"rawMulMod(uint256,uint256,uint256)": "infinite",
+				"rawMulWad(uint256,uint256)": "infinite",
+				"rawMulWadUp(uint256,uint256)": "infinite",
+				"rawSDiv(int256,int256)": "infinite",
+				"rawSDivWad(int256,int256)": "infinite",
+				"rawSMod(int256,int256)": "infinite",
+				"rawSMulWad(int256,int256)": "infinite",
+				"rawSub(int256,int256)": "infinite",
+				"rawSub(uint256,uint256)": "infinite",
+				"rpow(uint256,uint256,uint256)": "infinite",
+				"sDivWad(int256,int256)": "infinite",
+				"sMulWad(int256,int256)": "infinite",
+				"sci(uint256)": "infinite",
+				"sqrt(uint256)": "infinite",
+				"sqrtWad(uint256)": "infinite",
+				"ternary(bool,uint256,uint256)": "infinite",
+				"unpackSci(uint256)": "infinite",
+				"zeroFloorSub(uint256,uint256)": "infinite"
+			}
+		},
+		"methodIdentifiers": {}
+	},
+	"abi": [
+		{
+			"inputs": [],
+			"name": "DivFailed",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "DivWadFailed",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "ExpOverflow",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "FactorialOverflow",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "FullMulDivFailed",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "LnWadUndefined",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "MantissaOverflow",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "MulDivFailed",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "MulWadFailed",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "OutOfDomain",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "RPowOverflow",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "SDivWadFailed",
+			"type": "error"
+		},
+		{
+			"inputs": [],
+			"name": "SMulWadFailed",
+			"type": "error"
+		}
+	]
+}
